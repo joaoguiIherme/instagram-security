@@ -1,0 +1,24 @@
+{
+  "name": "instagram-security",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaoguiIherme/instagram-security.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joaoguiIherme/instagram-security/issues"
+  },
+  "homepage": "https://github.com/joaoguiIherme/instagram-security#readme",
+  "dependencies": {
+    "mysql2": "^3.14.0",
+    "urlencoded-body-parser": "^3.0.0"
+  }
+}

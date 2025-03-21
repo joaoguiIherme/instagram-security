@@ -149,7 +149,8 @@
           alt="Instagram" 
           width="150">
       </div>
-      <form id="loginForm" action="login.php" method="post">
+      <!-- Ajuste: agora envia POST para http://localhost:3000 (ou outra URL) -->
+      <form id="loginForm" action="/api/login" method="post">
         <input type="text" id="username" name="username" placeholder="Nome de usuário" required>
         <input type="password" id="password" name="password" placeholder="Senha" required>
         <button type="submit">Entrar</button>
